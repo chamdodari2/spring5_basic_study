@@ -38,4 +38,9 @@ public class RegisterRequest {
 		return password.contentEquals(conformPassword);
 	}
 
+	public String getPassword() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
