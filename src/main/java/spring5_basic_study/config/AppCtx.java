@@ -16,13 +16,13 @@ import spring5_basic_study.di.VersionPrinter;
 public class AppCtx {
 
 	
-	@Autowired
+	@Bean
 	public MemberDao memberDao() {
 		return new MemberDao();
 	}
 	
 	
-	@Autowired
+	@Bean
 	public MemberPrinter memberPrinter() {  //dㅒ랑 멤버리스트프린터도 입력
 		return new MemberPrinter();
 	}

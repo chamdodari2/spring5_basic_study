@@ -18,14 +18,14 @@ public class MemberInfoPrinter {
 		System.out.println();
 	}
 
-	public void setMemberDao(MemberDao memberDao) {
-		this.memberDao = memberDao;
-	}
-
-	public void setPrinter(MemberPrinter printer) {
-		this.printer = printer;
-	}
-	
+//	public void setMemberDao(MemberDao memberDao) {
+//		this.memberDao = memberDao;
+//	}
+//
+//	public void setPrinter(MemberPrinter printer) {
+//		this.printer = printer;
+//	}
+//	
 	
 //85쪽 키포인트는 세터메소트
 }
